@@ -1,0 +1,21 @@
+version: "2"
+
+run:
+  timeout: 5m
+  tests: true
+
+linters:
+  default: none
+  enable:
+    - errcheck
+    - errorlint
+    - govet
+    - gosec
+    - ineffassign
+    - loggercheck
+    - noctx
+    - promlinter
+    - spancheck
+    - staticcheck
+    - unqueryvet
+    - unused
