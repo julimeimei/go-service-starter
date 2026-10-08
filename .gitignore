@@ -27,6 +27,14 @@ go.work.sum
 # env file
 .env
 
+# Local Kubernetes secrets
+deployments/kubernetes/secret.yaml
+
+# Local working documents (not part of the published repository)
+/docs/
+/AGENTS.md
+/PROJECT_PLAN.md
+
 # Editor/IDE
 # .idea/
 # .vscode/
