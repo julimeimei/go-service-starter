@@ -1,6 +1,6 @@
 # Go Service Starter
 
-![Go](https://img.shields.io/badge/Go-1.26.6-00ADD8?logo=go&logoColor=white)
+![Go](https://img.shields.io/badge/Go-1.26.9-00ADD8?logo=go&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Ready-4169E1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Multi--stage-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Manifests-326CE5?logo=kubernetes&logoColor=white)
@@ -87,7 +87,7 @@ When PostgreSQL is not configured or unavailable, the endpoint returns `503 Serv
 
 ### Requirements
 
-- Go 1.26.6 or newer.
+- Go 1.26.9 or newer.
 - Docker and Docker Compose for the local full stack.
 - `psql` only if you want to run migrations manually.
 - `kubectl` only if you want to inspect or apply the Kubernetes examples.
